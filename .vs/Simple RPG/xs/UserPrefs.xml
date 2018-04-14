@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{CDD3BE12-BBCB-6A8E-6810-0D3ABB188D90}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WorldInteraction.cs">
+    <Files>
+      <File FileName="Assets/Scripts/WorldInteraction.cs" Line="23" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Simple_220RPG PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
