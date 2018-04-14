@@ -1,13 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class WorldInteraction : MonoBehaviour {
+
+    NavMeshAgent playerAgent;
+
 
 	// Use this for initialization
 	void Start ()
     {
-		
+        playerAgent = GetComponent<NavMeshAgent>();
 	}
 	
 	// Update is called once per frame
@@ -37,7 +41,8 @@ public class WorldInteraction : MonoBehaviour {
             }
             else
             {
-                // Player movement
+                // Move the player to the click
+                playerAgent.destination = interactionInfo.point;
 
             }
         }
